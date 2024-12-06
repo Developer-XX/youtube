@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, send_file
 from pytube import YouTube
 import os
 import ffmpeg
+from urllib.parse import quote
 
 app = Flask(__name__)
 
